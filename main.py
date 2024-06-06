@@ -14,7 +14,7 @@ scheduler = APScheduler()
 scheduler.init_app(app)
 
 DATABASE = 'account.db'
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "http://185.129.50.76/"
 STORAGE_DIR = 'storage'
 
 categories = []
